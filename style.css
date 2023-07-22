@@ -5,6 +5,7 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 *{
@@ -73,6 +74,15 @@ header{
     width: 1280px;
 }
 
+@media screen and (min-width: 1920px) {
+  #text{
+    margin-left: 75px;
+    filter: drop-shadow(10px 10px 10px black);
+  }
+  #dass{
+    margin-left: 960px;
+  }
+}
 .sec{
     position: relative;
     background-color: black;
